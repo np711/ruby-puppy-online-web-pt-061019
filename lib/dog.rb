@@ -8,4 +8,13 @@ class Dog
     
   end 
   
-  
+  def self.all 
+    @@all.each do |dog|
+      puts dog.name 
+    end 
+    
+    def self.clear_all 
+      @@all.clear 
+    end 
+    
+  end 
