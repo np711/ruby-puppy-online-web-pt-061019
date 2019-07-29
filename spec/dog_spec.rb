@@ -59,7 +59,7 @@ describe "Dog" do
         Dog.new('Luca')
     end
   end
-
+end 
   describe "#name" do
     it "has a name" do
       expect(pluto.name).to eq("Pluto")
