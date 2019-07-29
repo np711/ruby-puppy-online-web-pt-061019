@@ -21,7 +21,6 @@ describe "Dog" do
       it "has a class variable, @@all, the points to an array" do
         expect(Dog.class_variable_get(:@@all)).to be_a(Array)
       end
-    end
   end
 
   describe "class methods" do
